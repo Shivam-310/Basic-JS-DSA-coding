@@ -34,6 +34,13 @@ form input{
     pointer-events: none;
 }
 
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
 button{
     flex: 0 0 22%;
     margin: 5px 0;
@@ -46,7 +53,22 @@ button{
     cursor: pointer;
 }
 
+.btn-yellow{
+    background: rgb(245, 146, 62);
+    color: #fff;
+}
 
+.btn-grey{
+    background: rgb(224, 224, 224); 
+}
+
+.btn-equal{
+    background: green;
+}
+
+.btn-clear{
+    background: red;
+}
 
 
 
